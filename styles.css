@@ -484,6 +484,50 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #d9a7c7 0%, #fffcdc 100%);
     transition: 0.3s ease-in;
+}
+
+.services__card:nth-child(2){
+    background: #ee9ca7;  
+background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7); 
+background: linear-gradient(to right, #ffdde1, #ee9ca7); 
+}
+
+.services__card:nth-child(3){
+    background: #654ea3; 
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); 
+background: linear-gradient(to right, #eaafc8, #654ea3);
+}
+
+.services__card:nth-child(4){
+    background: #D3CCE3; 
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+.services__card h2{
+    text-align: center;
+}
+
+.services__card p{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.services__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.services__btn button{
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #131313;
+    font-size: 1rem;
 }
