@@ -176,14 +176,14 @@
         cursor: pointer;
     }
 
-    #monile-menu.is-active .bar:nth-child(2) {
+    #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    #monile-menu.is-active .bar:nth-child(1) {
+    #mobile-menu.is-active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    #monile-menu.is-active .bar:nth-child(3) {
+    #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 }
